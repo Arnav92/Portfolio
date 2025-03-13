@@ -1,10 +1,24 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export default function About() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-bold mb-8">About Me</h1>
-      
+      {/* Personal Section */}
+      <div className="mb-16 text-center">
+        <Avatar className="h-32 w-32 mx-auto mb-6">
+          {/* Replace the src with your image URL */}
+          <AvatarImage src="/your-photo.jpg" alt="Your Name" />
+          <AvatarFallback>YN</AvatarFallback>
+        </Avatar>
+        {/* Replace with your name */}
+        <h1 className="text-4xl font-bold mb-4">Your Name</h1>
+        {/* Replace with your title/role */}
+        <p className="text-xl text-muted-foreground mb-8">
+          Full Stack Developer & Software Engineer
+        </p>
+      </div>
+
       <div className="grid md:grid-cols-2 gap-8">
         <Card>
           <CardContent className="pt-6">

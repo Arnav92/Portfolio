@@ -34,28 +34,51 @@ export class MemStorage implements IStorage {
     // Add some sample projects
     const sampleProjects: InsertProject[] = [
       {
-        title: "Java Game Engine",
-        description: "A 2D game engine built from scratch in Java using OpenGL",
+        title: "Advanced Java Game Engine",
+        description: `A sophisticated 2D game engine built from scratch in Java using OpenGL.
+Features include:
+• Custom physics engine
+• Particle system
+• Scene management
+• Asset loading pipeline`,
         technologies: ["Java", "OpenGL", "JUnit"],
         imageUrl: "https://images.unsplash.com/photo-1550745165-9bc0b252726f",
         projectUrl: "https://example.com/game-engine",
         githubUrl: "https://github.com/example/game-engine"
       },
       {
-        title: "Machine Learning Chatbot",
-        description: "An AI-powered chatbot using Python and OpenAI's GPT",
-        technologies: ["Python", "TensorFlow", "OpenAI"],
-        imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995",
-        projectUrl: "https://example.com/chatbot",
-        githubUrl: "https://github.com/example/chatbot"
+        title: "LLM-Powered Language Assistant",
+        description: `An intelligent language assistant built with Python and OpenAI's GPT.
+• Context-aware responses
+• Multiple conversation modes
+• Custom knowledge integration
+• API endpoint integration`,
+        technologies: ["Python", "OpenAI", "FastAPI"],
+        githubUrl: "https://github.com/example/language-assistant"
       },
       {
-        title: "Unity 3D Platformer",
-        description: "A beautiful 3D platformer game made with Unity",
+        title: "3D Adventure Game",
+        description: `An immersive 3D platformer game created with Unity.
+Key features:
+• Procedurally generated levels
+• Advanced character controller
+• Dynamic lighting system
+• Custom shader effects`,
         technologies: ["Unity", "C#", "Blender"],
         imageUrl: "https://images.unsplash.com/photo-1552820728-8b83bb6b773f",
-        projectUrl: "https://example.com/platformer",
-        githubUrl: "https://github.com/example/platformer"
+        projectUrl: "https://example.com/unity-game",
+        githubUrl: "https://github.com/example/unity-game"
+      },
+      {
+        title: "Data Analysis Framework",
+        description: `A comprehensive R-based framework for statistical analysis.
+Capabilities:
+• Time series analysis
+• Statistical modeling
+• Data visualization
+• Report generation`,
+        technologies: ["R", "tidyverse", "ggplot2"],
+        githubUrl: "https://github.com/example/r-analysis"
       }
     ];
 
