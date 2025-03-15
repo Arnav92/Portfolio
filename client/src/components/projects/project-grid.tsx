@@ -9,23 +9,23 @@ export default function ProjectGrid() {
 
   if (isLoading) {
     return (
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {[1, 2].map((i) => (
-          <div key={i} className="h-[400px] bg-muted animate-pulse rounded-lg" />
-        ))}
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {[1, 2].map((i) => (
+              <div key={i} className="h-[400px] bg-muted animate-pulse rounded-lg" />
+          ))}
+        </div>
     );
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      {projects?.map((project, i) => (
-        <ProjectCard 
-          key={project.id} 
-          project={project} 
-          variant={i % 2 === 0 ? "full" : "minimal"}
-        />
-      ))}
-    </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {projects?.map((project) => (
+            <ProjectCard
+                key={project.id}
+                project={project}
+                variant={project.imageUrl ? "full" : "minimal"}
+            />
+        ))}
+      </div>
   );
 }

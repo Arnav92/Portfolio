@@ -8,14 +8,14 @@ export default function About() {
       <div className="mb-16 text-center">
         <Avatar className="h-32 w-32 mx-auto mb-6">
           {/* Replace the src with your image URL */}
-          <AvatarImage src="/your-photo.jpg" alt="Your Name" />
+          <AvatarImage src="/pfp-modified.png" alt="Your Name" />
           <AvatarFallback>YN</AvatarFallback>
         </Avatar>
         {/* Replace with your name */}
-        <h1 className="text-4xl font-bold mb-4">Your Name</h1>
+        <h1 className="text-4xl font-bold mb-4">Arnav Kumar</h1>
         {/* Replace with your title/role */}
         <p className="text-xl text-muted-foreground mb-8">
-          Full Stack Developer & Software Engineer
+          Full-Stack Developer & Software Engineer
         </p>
       </div>
 
@@ -25,22 +25,27 @@ export default function About() {
             <h2 className="text-2xl font-semibold mb-4">Background</h2>
             <p className="text-muted-foreground">
               I am a passionate software engineer with experience in full-stack development,
-              game development, and data science. My journey in programming started with Java
-              and has since expanded to include various modern technologies and frameworks.
+              game development, data science, and more. My journey in programming started with Java
+              in eighth grade and has since expanded to include various modern technologies and frameworks.
+              <br/><br/>
+              English is my primary language. Having lived in Germany for over 15 years,
+              I speak fluent German and hold a Goethe B2 Certificate.
+              I was born in India and am fluent in Hindi.
             </p>
           </CardContent>
         </Card>
 
         <Card>
           <CardContent className="pt-6">
-            <h2 className="text-2xl font-semibold mb-4">Skills</h2>
+            <h2 className="text-2xl font-semibold mb-4">Programming Skills</h2>
             <ul className="space-y-2 text-muted-foreground">
               <li>• Java & Python Development</li>
               <li>• Web Development (React, HTML, CSS)</li>
-              <li>• Game Development (Unity)</li>
-              <li>• Data Analysis (R, Python)</li>
+              <li>• Game Development (Unity, C#)</li>
+              <li>• Data Analysis (R)</li>
               <li>• Machine Learning & LLMs</li>
-              <li>• Database Design</li>
+              <li>• Database Manipulation (SQL)</li>
+              <li>• Extras: Git & Github, Django, Micropython</li>
             </ul>
           </CardContent>
         </Card>

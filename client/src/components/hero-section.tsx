@@ -31,7 +31,7 @@ export default function HeroSection() {
               <Link href="/projects">View Projects</Link>
             </Button>
             <Button size="lg" variant="outline" asChild>
-              <Link href="/contact">Get in Touch</Link>
+              <a href="https://www.linkedin.com/in/arnav-667511295/" target="_blank">Get In Touch</a>
             </Button>
           </div>
         </motion.div>

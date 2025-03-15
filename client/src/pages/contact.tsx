@@ -59,7 +59,7 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
         <h2 className="text-2xl font-bold mb-4">Thank You!</h2>
         <p className="text-muted-foreground">
-          Your message has been received. I'll get back to you as soon as possible.
+          Your message has been received. I'll get back to you via email as soon as possible.
         </p>
       </div>
     );
