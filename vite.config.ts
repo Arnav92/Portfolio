@@ -15,12 +15,12 @@ export default defineConfig({
     themePlugin(),
     ...(process.env.NODE_ENV !== "production" &&
     process.env.REPL_ID !== undefined
-      ? [
+        ? [
           await import("@replit/vite-plugin-cartographer").then((m) =>
-            m.cartographer(),
+              m.cartographer(),
           ),
         ]
-      : []),
+        : []),
   ],
   resolve: {
     alias: {
@@ -30,7 +30,8 @@ export default defineConfig({
   },
   root: path.resolve(__dirname, "client"),
   build: {
-    outDir: path.resolve(__dirname, "dist/public"),
+    outDir: path.resolve(__dirname, "dist"), // Change from "dist/public" to "dist"
     emptyOutDir: true,
   },
+  base: "./", // Ensures relative paths for assets
 });
