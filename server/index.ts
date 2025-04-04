@@ -54,7 +54,7 @@ app.use((req, res, next) => {
   }
 
   const port =  process.env.PORT || 5000;
-  const host = "localhost";
+  const host = "0.0.0.0";
 
   server.listen(port, host, () => {
     log(`serving on http://${host}:${port}`);
