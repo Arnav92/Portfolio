@@ -106,6 +106,25 @@ Below is a sample of these projects, along with an image from "Garcade"—a coll
         projectUrl: "https://drive.google.com/file/d/1D1SxhpOuIbKgnbQpTiUOiT91bfFa7Emr/view"
       },
 
+      
+      {
+        title: "E-Commerce Application",
+        description: `For a real-world client project, I developed an Android e-commerce application using Android Studio for my uncle’s local pharmacy. The goal was to regain sales lost to large platforms like Amazon, while maintaining control over product distribution and avoiding high fees and delays.
+<br/><br/>
+<strong>Features:</strong>
+<ul>
+  <li>Restricted user registration via Firebase Authentication, ensuring only residents of the target village could access the store.</li>
+  <li>Admin access for the pharmacy owner to upload products (image, title, description, price) to Firebase Realtime Database and Firebase Storage.</li>
+  <li>Automatic email notifications to the owner after each purchase, including product details, buyer info, and time of order.</li>
+  <li>Collaborative filtering-based product recommendations, encouraging relevant product discovery.</li>
+  <li>Linear search functionality for quickly finding products by title, description, or price.</li>
+</ul>
+`,
+        technologies: ["Android Studio", "Java", "Firebase (Realtime Database, Storage, Authentication)"],
+        githubUrl: "https://github.com/Arnav92/E-Commerce"
+      },
+
+      
       {
         title: "IDSST R Projects",
         description: `For university, I had a class called "Introduction to Data Science and Statistical Thinking" (IDSST),
