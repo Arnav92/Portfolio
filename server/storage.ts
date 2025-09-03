@@ -32,6 +32,33 @@ export class MemStorage implements IStorage {
      */
     const sampleProjects: InsertProject[] = [
       {
+        title: "Python for Engineering Data Analysis",
+        description: `
+Completed a university course covering Python from fundamentals to advanced AI/ML topics, including neural networks, autoencoders, image segmentation, attention mechanisms, and image classification.
+<br/><br/>
+<strong>Final Project (team):</strong>
+<ul>
+  <li>Explored the trade-off between detection accuracy and inference speed for YOLO and FastYOLO in car object detection.</li>
+  <li>Designed experiments including data preprocessing, model training, benchmarking (mAP, GFLOPS, FPS), and evaluation on specified hardware setups.</li>
+  <li>Developed a reproducible pipeline for training, testing, and analysis of multiple model variants.</li>
+  <li>Produced visualizations and analysis to guide model selection for real-time object detection.</li>
+  <li>Full project materials, including the final project and all smaller projects from the course and additional exercises, are available <a href="https://syncandshare.lrz.de/getlink/fi7kc9qgABmNAGrGUpsZzx/" target="_blank">here</a>.</li>
+</ul>
+  `,
+        technologies: [
+          "Python",
+          "PyTorch / TensorFlow",
+          "Computer Vision",
+          "YOLO",
+          "FastYOLO",
+          "Benchmarking",
+          "Data Preprocessing",
+          "Evaluation Metrics (mAP, GFLOPS, FPS)",
+        ],
+        imageUrl: "",
+      },
+      
+      {
         title: "LLM & AI Projects",
         description: `Created a market-slogan and study guide generator.
 <br/><br/>
